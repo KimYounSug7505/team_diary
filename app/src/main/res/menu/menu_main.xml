@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- 옵션 메뉴 구현 액션바에 구현함
+    옵션바를 밑에 구현하게 되면 보톰네비게이션-->
+
+    <item
+        android:id="@+id/tab1"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:title="달력" />
+    <item
+        android:id="@+id/tab2"
+        app:showAsAction="ifRoom"
+        android:title="설정" />
+    <item
+        android:id="@+id/tab3"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:title="기타" />
+
+</menu>
